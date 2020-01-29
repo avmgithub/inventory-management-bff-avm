@@ -19,6 +19,8 @@ service:
   type: ClusterIP
   port: 80
 
+serviceUrl: "inventory-management-service-avm:80"
+
 ingress:
   enabled: true
   appid:
